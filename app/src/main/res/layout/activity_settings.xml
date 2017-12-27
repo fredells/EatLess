@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fredells.eatless.Settings">
+
+    <Button
+        android:id="@+id/timeSet3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="06:00 pm"
+        app:layout_constraintEnd_toStartOf="@+id/onSet3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/timeSet2" />
+
+    <Button
+        android:id="@+id/timeSet2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="12:00 pm"
+        app:layout_constraintEnd_toStartOf="@+id/onSet1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/timeSet1" />
+
+    <Switch
+        android:id="@+id/onSet3"
+        android:theme="@style/Platform.AppCompat.Light"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="16dp"
+        android:checked="true"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timeSet3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:text="Dinner"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timeSet3" />
+
+    <Switch
+        android:id="@+id/onSet2"
+        android:theme="@style/Platform.AppCompat.Light"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="16dp"
+        android:checked="true"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timeSet2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:text="Lunch"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timeSet2" />
+
+    <Switch
+        android:id="@+id/onSet1"
+        android:theme="@style/Platform.AppCompat.Light"
+        android:layout_width="90dp"
+        android:layout_height="42dp"
+        android:layout_marginRight="16dp"
+        android:checked="true"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timeSet1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:text="Breakfast"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timeSet1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:text="Reminders"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/timeSet1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="08:00 am"
+        app:layout_constraintEnd_toStartOf="@+id/onSet1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</android.support.constraint.ConstraintLayout>
